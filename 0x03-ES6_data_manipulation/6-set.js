@@ -1,4 +1,4 @@
 /* eslint-disable */
-export default function setFromArray([]) {
-	return new Set(0);
+export default function setFromArray(argArray) {
+	return new Set(argArray);
 };	
