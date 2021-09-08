@@ -33,6 +33,6 @@ const countStudents = (path) => {
     });
   };
   return new Promise(promise);
-}; 
+};
 
-module.exports = countStudents; 
+module.exports = countStudents;
