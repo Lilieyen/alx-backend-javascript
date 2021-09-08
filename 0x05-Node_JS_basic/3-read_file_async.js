@@ -30,10 +30,11 @@ const countStudents = (path) => {
         messages.push(message);
       }
       res(messages);
-    });
-  };
+    }); 
+
+  }; 
+
   return new Promise(promise);
 }; 
-
 
 module.exports = countStudents; 
