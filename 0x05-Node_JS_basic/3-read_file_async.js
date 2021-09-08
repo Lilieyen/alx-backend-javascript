@@ -1,3 +1,4 @@
+/* eslint-disable */
 const fs = require('fs');
 
 const countStudents = (path) => {
@@ -33,5 +34,6 @@ const countStudents = (path) => {
   };
   return new Promise(promise);
 }; 
+
 
 module.exports = countStudents; 
